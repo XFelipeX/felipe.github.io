@@ -1,0 +1,306 @@
+#main{
+    margin:0;
+    padding: 0;
+    width:100%;
+    background-color:white;
+    font-family: helvetica sans-serif;
+    color:white;
+}
+#main h1,h2{
+    font-family:'Quicksand', sans-serif;;
+}
+#main p{
+    text-indent: 25px;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+}
+
+/*cabecalho inicio*/
+#main #header{
+    display: block;
+    background-image: url(head4.jpg);
+    width:100%;
+    height:600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#header h1{
+    display: inline-block;
+    margin: 70px 0 0 100px; 
+    font-size:70px ;
+    display: inline-block;
+    font-family: helvetica sans-serif;
+    color:#F0FFFF;
+    border-top:3px solid white;
+    border-bottom:3px solid white;
+}
+#navegacao ul li{
+    letter-spacing: 5px;
+    text-shadow:3px 2px 2px #4F4F4F ;
+    font-size:28px;
+    display: inline-block;
+    margin-right: 25px;
+    margin:0 10px 0 10px;
+}
+#header a{
+    text-decoration: none;
+    color:white;
+}
+#header a:hover{
+    color:#8FBC8F;
+}
+#navegacao ul{
+    padding:10px 25px 10px 25px;
+    background: black;
+    margin:auto;
+    width:400px;
+    text-align: center;
+    border: 3px solid white;
+    border-radius: 2em / 5em;
+}
+#navegacao nav{
+    display: inline;
+    text-align: right;
+    margin-right: 100px;
+}
+#navegacao{
+    margin-top: 300px;
+}
+
+
+#icones-topo ul{
+    list-style-type: none;
+    float:right;
+ 
+}
+#icones-topo li{
+    display: inline;  
+    margin-right: 20px;
+}
+#icones-topo{
+    position: relative;
+    bottom:80px;
+    right:50px;
+}
+
+#topo-estilo{
+    display: inline-block;
+    margin-left: 30px;
+    float:right;
+    margin:0 30px 70px 0;
+    clear:both;
+}
+#topo-estilo p{
+    color: #ffffff;
+    font-size: 22px;
+    display: inline-block;
+    margin-top: 15px;;
+    text-align: center;
+    
+}
+#img-topo{
+    background-image: url(top.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:70px;
+    height:100px;
+}
+
+#container #topo-estilo a{
+    text-decoration: none;
+   
+}
+#container #topo-estilo a:hover{
+    text-decoration: none;
+}
+
+
+/*cabecalho fim*/
+
+#container{
+    text-align: center;
+    padding: 0;
+    width: 100%;
+}
+#container{
+    color:#F5F5F5;
+}
+
+/*conteudo principal conhecimentos inicio*/
+.main-content{
+    background-color:#000000;
+    height:800px;
+}
+
+.main-content h1{
+    font-size:40px;
+    display: inline-block;
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+.main-content img{
+    border-radius: 30px;
+}
+
+/*conteudo principal conhecimentos fim*/
+
+/*rodape inicio*/
+#rodape{
+    height:100px;
+    background-color: black;
+}
+#rodape{
+  clear:both;
+  text-align: center;
+}
+#rodape p{
+    font-size: 18px;
+    margin-top:40px;
+    margin-left: 250px;
+    display: inline-block;
+}
+#icones-rodape ul li{
+    margin-right:30px;
+    display: inline-block;
+}
+#icones-rodape {
+    float:right; 
+}
+.icones li:hover{
+    border-bottom: 1px solid white;
+}
+
+/*rodape fim*/
+
+/*conteudo principal sobre inicio*/
+#about-mom{
+    margin:0 auto 0 auto;
+    width:1200px;
+    height: 650px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.main-about{
+    height: 700px;
+    background-color: white;
+    color:black;
+    margin-bottom: 20px;
+}
+.main-about span h2{
+    display: inline-block;
+    clear:both;
+    margin-top: 50px;
+    font-size: 40px;
+    color:rgb(0, 0, 0);
+    border-bottom:3px solid rgb(0, 0, 0);
+}
+#about-image{
+    width: 500px;
+    height: 700px;
+    float:left;
+  
+}
+#about-text{
+    text-align: center;
+    color:black;
+    width: 650px;
+    height: 900px;
+    float:right;
+
+}
+#about-text p{
+    padding: 0;
+    margin:0;
+    text-align:start;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+    font-size: 20px;   
+}
+#text{
+    display: inline-block;
+    margin:90px 0 0 0; 
+    line-height: 30px;  
+}
+#left {
+    margin:210px auto 0 auto;
+    width:300px;
+    height: 300px;
+    border:2px solid rgb(51, 51, 51);
+    border-radius: 12px;
+}
+#right{
+    background-image: url(profile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left:100px;
+    bottom:100px;
+    width:300px;
+    height: 300px;
+    border-radius: 12px;
+}
+#right img{
+    width:300px;
+    height: 300px;
+}
+
+/*conteudo principal sobre fim*/
+
+/*conteudo contato inicio*/
+#contato-area{
+    width:600px;
+    height:300px;
+    margin:50px auto auto auto;
+}
+
+#contato-fundo{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    clear:both;
+    background:rgb(48, 44, 44);
+    width: 100%;
+    height: 700px;
+}
+
+#contato-fundo span h2{
+    display: inline-block;
+    clear:both;
+    margin-top: 50px;
+    font-size: 40px;
+    color:rgb(255, 255, 255);
+    border-bottom:3px solid rgb(255, 255, 255);
+}
+#contato-text p{
+    color:white;
+    font-size: 20px;
+}
+
+#contato-img img{
+    margin-top:20px;   
+}
+#contato-img{
+    float:left;
+}
+#contato-text{
+    margin-top:50px;
+    float:right;
+    box-sizing: border-box;
+
+}
+#gmail{
+    display: inline-block;
+    margin:88px 100px 0 0;
+    padding:0;
+}
+#whats{
+    display: inline-block;
+    margin:0px 288px 0 0;
+    padding:0;
+}
+
+/*conteudo contato fim*/
+
+
+
+
+
+
