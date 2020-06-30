@@ -97,11 +97,10 @@ header h1 {
 }
 
 .topo-estilo {
+    position: fixed;
     display: inline-block;
-    margin-left: 30px;
     float: right;
     margin: 0 30px 70px 0;
-    clear: both;
 }
 
 .topo-estilo p {
@@ -117,6 +116,9 @@ header h1 {
     background-size: cover;
     width: 70px;
     height: 100px;
+    position: fixed;
+    top: 469px;
+    right: 47px;
 }
 
 .topo-estilo a {
@@ -294,6 +296,7 @@ header h1 {
 }
 
 .contato-area p {
+    font-size: 28px;
     position: relative;
     display: inline-block;
     top: -53px;
@@ -408,6 +411,9 @@ header h1 {
     }
     .contato-area {
         margin: 50px 0;
+    }
+    .contato-area p {
+        font-size: 19px;
     }
     .main-content {
         height: 636px;
